@@ -2,7 +2,7 @@
 
 
 ## Generative AI | 🚀🚀🚀
-Flowise is an open source generative AI development platform for building AI Agents and LLM workflows.
+Generative AI development platform for building AI Agents and LLM workflows.
 
 
 🧱  Key Features
@@ -21,9 +21,6 @@ terraform init
 terraform validate
 terraform plan -var-file="template.tfvars"
 terraform apply -var-file="template.tfvars" -auto-approve
-&&
-terraform -chdir=modules/app/ init
-terraform -chdir=modules/app/ apply -auto-approve
 ```
 
 
