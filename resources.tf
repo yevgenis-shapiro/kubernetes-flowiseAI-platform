@@ -22,3 +22,11 @@ module "nginx" {
   source = "./modules/nginx"
   depends_on = [module.metallb]
 }
+
+module "flowise" {
+  source = "./modules/flowise"
+  depends_on = [module.nginx]
+}
+
+
+
